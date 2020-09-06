@@ -4,14 +4,14 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.zkejid.projectgroupname</groupId>
-  <artifactId>projectname</artifactId>
+  <groupId>com.zkejid.constructor</groupId>
+  <artifactId>web-api</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Project name</name>
-  <description>Project description.</description>
-  <url>https://github.com/zkejid/projectname</url>
+  <name>Web API</name>
+  <description>Collection of API, provided by servlet containers.</description>
+  <url>https://github.com/zkejidsconstructor/web-api</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,9 +28,7 @@
   </properties>
 
   <modules>
-    <module>projectname-api</module>
-    <module>projectname-apitest</module>
-    <module>projectname-impl</module>
+    <module>web-static-resources</module>
   </modules>
 
   <build>
@@ -128,8 +126,8 @@
     <dependencies>
       <!-- Project artifacts -->
       <dependency>
-        <groupId>com.zkejid.projectgroupname</groupId>
-        <artifactId>projectname-api</artifactId>
+        <groupId>com.zkejid.constructor</groupId>
+        <artifactId>webstaticresources-api</artifactId>
         <version>${project.version}</version>
       </dependency>
 
@@ -142,8 +140,8 @@
       
       <!-- Test dependencies -->
       <dependency>
-        <groupId>com.zkejid.projectgroupname</groupId>
-        <artifactId>projectname-apitest</artifactId>
+        <groupId>com.zkejid.constructor</groupId>
+        <artifactId>webstaticresources-apitest</artifactId>
         <version>${project.version}</version>
         <scope>test</scope>
       </dependency>
@@ -173,8 +171,8 @@
   </developers>
 
   <scm>
-    <connection>scm:git:</connection>
-    <developerConnection>scm:git:</developerConnection>
+    <connection>scm:git:git@github.com:zkejidsconstructor/web-api.git</connection>
+    <developerConnection>scm:git:git@github.com:zkejidsconstructor/web-api.git</developerConnection>
     <url></url>
   </scm>
 

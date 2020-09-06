@@ -1,5 +1,5 @@
-# Project name
-Description of the project
+# Web API
+Project consists of API, provided by web servers.
 
 ## Usage
 ### API
@@ -13,4 +13,4 @@ Versions of artifacts of the project follow the
 [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html) specification.
 
 ## License
-The module is provided under MIT License Copyright (c) 2020 Zkejid.
+The module is provided under Apache License 2.0 Copyright (c) 2020 Zkejid.
