@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>web-static-resources</artifactId>
+    <groupId>com.zkejid.constructor</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>webstaticresources-impl</artifactId>
+
+  <name>Web static resources mock implementation</name>
+  <description>Mock implementation of web static resource API. Redirects input arguments directly to log.</description>
+  <url>https://github.com/zkejidsconstructor/web-api/tree/master/web-static-resources/webstaticresources-impl</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.zkejid.constructor</groupId>
+      <artifactId>webstaticresources-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.zkejid.constructor</groupId>
+      <artifactId>core-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.zkejid.constructor</groupId>
+      <artifactId>webstaticresources-apitest</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Ivan Panfilov</name>
+      <email>developer@zkejid.com</email>
+      <organization>Zkejid</organization>
+      <organizationUrl>https://github.com/zkejid</organizationUrl>
+    </developer>
+  </developers>
+</project>

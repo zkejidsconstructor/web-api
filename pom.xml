@@ -23,12 +23,15 @@
     <maven.staging.plugin.version>1.6.8</maven.staging.plugin.version>
 
     <constructor.core.version>1.0.0</constructor.core.version>
+    <constructor.cliarguments.version>1.0.0</constructor.cliarguments.version>
+    <constructor.stringvalue.version>1.0.0</constructor.stringvalue.version>
 
     <junit.jupiter.version>5.6.2</junit.jupiter.version>
   </properties>
 
   <modules>
     <module>web-static-resources</module>
+    <module>web-static-resources/webstaticresources-example</module>
   </modules>
 
   <build>
@@ -130,12 +133,42 @@
         <artifactId>webstaticresources-api</artifactId>
         <version>${project.version}</version>
       </dependency>
+      <dependency>
+        <groupId>com.zkejid.constructor</groupId>
+        <artifactId>webstaticresources-impl</artifactId>
+        <version>${project.version}</version>
+      </dependency>
 
       <!-- Constructor artifacts -->
       <dependency>
         <groupId>com.zkejid.constructor</groupId>
         <artifactId>core-api</artifactId>
         <version>${constructor.core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.zkejid.constructor</groupId>
+        <artifactId>core-impl</artifactId>
+        <version>${constructor.core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.zkejid.constructor</groupId>
+        <artifactId>cli-arguments-api</artifactId>
+        <version>${constructor.cliarguments.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.zkejid.constructor</groupId>
+        <artifactId>cli-arguments-impl</artifactId>
+        <version>${constructor.cliarguments.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.zkejid.constructor</groupId>
+        <artifactId>string-value-api</artifactId>
+        <version>${constructor.stringvalue.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.zkejid.constructor</groupId>
+        <artifactId>string-value-impl</artifactId>
+        <version>${constructor.stringvalue.version}</version>
       </dependency>
       
       <!-- Test dependencies -->

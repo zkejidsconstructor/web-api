@@ -4,5 +4,6 @@ import java.nio.file.Path;
 
 public interface ResourceRegistryApi {
 
-  void addResource(Path filePath, String defaultUrlPath) throws UrlPathAlreadyUsedException;
+  void addResource(Path filePath, String defaultUrlPath)
+      throws UrlPathAlreadyUsedException, ResourceNotAvailableException;
 }
