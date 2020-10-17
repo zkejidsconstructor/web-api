@@ -10,13 +10,17 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <packaging>pom</packaging>
-
   <artifactId>web-static-resources</artifactId>
+
+  <name>Web static resources module root</name>
+  <description>Provides set of artifacts to support usage of static resources in web servers</description>
+  <url>https://github.com/zkejidsconstructor/web-api/tree/master/web-static-resources</url>
 
   <modules>
     <module>webstaticresources-api</module>
     <module>webstaticresources-apitest</module>
     <module>webstaticresources-impl</module>
+    <module>webstaticresources-example</module>
   </modules>
 
 </project>

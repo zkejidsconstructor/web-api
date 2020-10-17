@@ -31,7 +31,6 @@
 
   <modules>
     <module>web-static-resources</module>
-    <module>web-static-resources/webstaticresources-example</module>
   </modules>
 
   <build>
